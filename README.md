@@ -1,0 +1,1 @@
+CMD ["chmod", "-R", "777", "laravel/storage"]

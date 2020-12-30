@@ -4,12 +4,13 @@
 <a>https://qiita.com/sano1202/items/6021856b70e4f8d3dc3d</a>
 
 <h1>使いかた</h1>
+bash等を利用することが前提です。windowsユーザーの場合はgit bash等を使ってください。
 <ol>
     <li>.envをセットする</li>
     <li>commandファイルでbash等を開ける</li>
+    <li><code>chmod -R 777 .</code>を実行</li>
     <li><code>./initializer.sh</code>を実行</li>
 </ol>
-<p>.envファイルを設定することも忘れずに</p>
 <p>以上</p>
 
 <h1>マイグレーション</h1>
@@ -33,12 +34,12 @@
 <p>モデルの名前は、テーブル名の単数形にする必要がある</p>
 <p>そうすれば自動でマッピングする</p>
 <h3>手順</h3>
-<p><code>pipe.sh php artisan make:model 名前</code>を実行する</p>
+<p><code>./pipe.sh php artisan make:model 名前</code>を実行する</p>
 
 <h1>シーディング</h1>
 <h3>手順</h3>
 <ol>
-    <li>command直下で<code>pipe.sh php artisan make:seeder 名前</code>を実行する</li>
+    <li>command直下で<code>./pipe.sh php artisan make:seeder 名前</code>を実行する</li>
     <li>database/seeds直下に作成されたものを編集する</li>
     <li>DatabaseSeeder.phpを編集する</li>
     <li><code>./seeding</code>を実行する</li>

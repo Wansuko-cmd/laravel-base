@@ -1,0 +1,1 @@
+docker exec -it db-host psql -U dev -d database

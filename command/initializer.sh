@@ -21,6 +21,10 @@ composer install"
 
 cp ./../command/product/pg_hba.conf ../db/data/pg_hba.conf
 
+#CentOSのサーバー用
+#cp ./../command/product/postgresql.conf ../db/data/postgresql.conf
+#docker exec db-host bash -c "psql create database database"
+
 docker exec php bash -c "
 cd laravel &&
 php artisan migrate &&

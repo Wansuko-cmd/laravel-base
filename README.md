@@ -46,3 +46,12 @@ bash等を利用することが前提です。windowsユーザーの場合はgit
 </ol>
 <h3>確認</h3>
 <p>こちらはマイグレーションの時と同じ手順で確認可能</p>
+
+<h1>CentOS×RaspberryPi上で動かすとき</h1>
+<ol>
+    <li>command/product下のpostgresql.confの198行目<code>#fsync = off</code>のコメントを外す</li>
+    <li>pg_hbaをコメントに従って書き換える</li>
+    <li>initializer.shをコメントに従って書き換える</li>
+    <li>docker/php下のDockerfileをコメントに従って書き換える</li>
+    
+</ol>

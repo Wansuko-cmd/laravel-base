@@ -53,5 +53,11 @@ bash等を利用することが前提です。windowsユーザーの場合はgit
     <li>pg_hbaをコメントに従って書き換える</li>
     <li>initializer.shをコメントに従って書き換える</li>
     <li>docker/php下のDockerfileをコメントに従って書き換える</li>
-    
 </ol>
+
+<h1>環境構築時参考URL（CentOS）</h1>
+<ul>
+    <li>https://blog.smallserver.jp/raspberry-pi-3-%E3%81%A7-centos-7-%E3%82%92%E5%8B%95%E4%BD%9C%E3%81%95%E3%81%9B%E3%82%8B/</li>
+    <li>https://raspberrypi.stackexchange.com/questions/85654/installing-docker-on-rpi-3b-with-centos</li>
+    <li>https://qiita.com/tkyonezu/items/ceaaf41924df39254058</li>
+</ul>
